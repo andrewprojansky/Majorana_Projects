@@ -66,6 +66,8 @@ nx.draw_networkx_nodes(G, pos, **node_opts)
 nx.draw_networkx_labels(G, pos, font_size=10)
 nx.draw_networkx_edges(G, pos, width=0.2)
 
+#Expanded/Edited work begins here
+
 def comm_check(clique, paulis):
     
     print("clique:")
